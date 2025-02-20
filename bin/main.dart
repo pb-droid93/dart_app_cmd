@@ -81,6 +81,7 @@ bool checkout(Cart cart){
   if (paid >= total){
     final change = paid - total;
     print('change : \$${change.toStringAsFixed(2)}');
+    print("finished");
     return true;
 
   } else{
